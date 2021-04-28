@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var db = require("../models");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://root:root@cluster0.arnvm.mongodb.net/budget", {
     useNewUrlParser: true
 });
 
